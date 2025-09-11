@@ -1,0 +1,58 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% Thème et couleurs
+\moderncvstyle{banking}     % styles : casual, classic, oldstyle, banking
+\moderncvcolor{blue}        % couleurs : blue, orange, green, red, purple, grey, black
+
+% Encodage et langue
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+
+% Marges
+\usepackage[scale=0.85]{geometry}
+
+% Infos personnelles
+\firstname{Abdou}
+\familyname{SALL}
+\title{Ingénieur en Efficacité energétique} % 
+\20 square de l'échiquier{Cergy, France}{} % 
+\phone[mobile]{+33 755231115}
+\email{sallabdoul35@.com}
+\social[linkedin]{linkedin.com/in/tonprofil}
+\social[github]{github.com/tonprofil} % si utile
+
+\begin{document}
+\makecvtitle
+
+% Profil
+\section{Profil}
+Ingénieur en Efficacité Energétique en recherche d'une opportinuté.
+
+% Expérience
+\section{Expérience professionnelle}
+\cventry{2022--Aujourd'hui}{Intitulé du poste}{Entreprise}{Ville}{}{
+\begin{itemize}\itemsep0em
+  \item Réalisation clé n°1 (avec chiffres ou résultats si possible)
+  \item Réalisation clé n°2
+\end{itemize}}
+
+\cventry{2020--2022}{Ancien poste}{Entreprise}{Ville}{}{
+\begin{itemize}\itemsep0em
+  \item Réalisation clé n°1
+  \item Réalisation clé n°2
+\end{itemize}}
+
+% Formation
+\section{Formation}
+\cventry{2018--2020}{Nom du diplôme}{Université/École}{Ville}{}{Mention ou spécialisation éventuelle}
+
+% Compétences
+\section{Compétences}
+\cvitem{Techniques}{Compétence 1, Compétence 2, Compétence 3}
+\cvitem{Langues}{Français (natif), Anglais (C1), Espagnol (B2)}
+
+% Centres d’intérêt (optionnel)
+\section{Centres d’intérêt}
+Voyage, sport, bénévolat, créativité
+
+\end{document}
